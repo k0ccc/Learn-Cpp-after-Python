@@ -6,9 +6,7 @@ int main() {
     double value;
     cout << "Enter the number of light years: ";
     cin >> value;
-    double value1;
-    value1 = func_print(value);
-    cout << endl <<value<<" light years =  "<< value1 <<
+    cout << endl <<value<<" light years =  "<<  func_print(value) <<
     " astronomical units." << '\n';
     return 0;
 }

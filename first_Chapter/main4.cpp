@@ -6,9 +6,7 @@ int main() {
     int value;
     cout << "Please enter a Celsius value: ";
     cin >> value;
-    int value1;
-    value1 = func_print(value);
-    cout << endl <<value<<" degrees Celsius is "<< value1 <<
+    cout << endl <<value<<" degrees Celsius is "<< func_print(value) <<
     " degrees Fahrenheit." << '\n';
 
     return 0;
